@@ -106,7 +106,7 @@ public class TestBloomAlphaThreshold extends SimpleApplication
 		rootNode.attachChild(soil);
 
 		Material matBox = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-		matBox.setTexture("ColorMap", assetManager.loadTexture("Textures/glass.dds"));
+		matBox.setTexture("ColorMap", assetManager.loadTexture("Textures/frameWithAlpha.dds"));
 		matBox.setFloat("AlphaDiscardThreshold", 0.5f);
 
 		Geometry box = new Geometry("box", new Box(new Vector3f(-3.5f, 10, -2), 2, 2, 2));
